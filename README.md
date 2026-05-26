@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# World Explorer
 
-## Getting Started
+A modern country explorer web application built with Next.js and Tailwind CSS. Users can browse countries around the world, search for specific countries, and view detailed information such as flags, capitals, population, languages, currencies, and more.
 
-First, run the development server:
+---
+
+## Features
+
+* 🌎 Explore countries from all around the world
+* 🔍 Search countries instantly
+* 🏳️ View country flags and details
+* 🏙️ See capital cities and regions
+* 👥 Population information
+* 💬 Languages and currencies
+* 🕒 Time zones
+* 🗺️ Google Maps links for each country
+* 📱 Fully responsive design
+* ⚡ Fast performance with Next.js
+
+---
+
+## Built With
+
+* Next.js
+* React
+* Tailwind CSS
+* REST Countries API
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Baharah-Rostami/world-explorer
+```
+
+Go into the project folder:
+
+```bash
+cd world-explorer
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌐 API Used
 
-To learn more about Next.js, take a look at the following resources:
+This project uses the free REST Countries API:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+https://restcountries.com/
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📂 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+app/
+ ├── countries/
+ ├── components/
+ ├── globals.css
+ ├── layout.js
+ └── page.js
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🎨 Styling
+
+The project is styled using Tailwind CSS with a modern responsive UI.
+
+---
+
+## 🔮 Future Improvements
+
+* Add dark/light mode
+* Add filtering by region
+* Save favorite countries
+* Add animations and transitions
+* Improve loading states
+
+---
+
+## 👩‍💻 Author
+
+Made with by Baharah Rostami
+
+
+
